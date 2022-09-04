@@ -1,0 +1,157 @@
+/* * {
+  margin: 0%;
+  padding: 0%;
+  outline: 0px;
+}
+
+body {
+  font-family: "poppins";
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+nav img {
+  width: 200px;
+}
+
+nav .logo-img {
+  width: 100px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+
+.nav-items .active-item {
+  font-weight: bold;
+  color: #ff5e35;
+}
+
+.nav-items .nav-item {
+  margin: 0px 30px;
+  border-bottom: 2px solid #fff;
+}
+
+.nav-item .nav-items .active-item:hover {
+  border-bottom: 2px solid #ff5e35;
+}
+
+.nav-items .nav-item:hover {
+  color: #ff5e35;
+  border-bottom: 2px solid #ff5e35;
+}
+
+/* Intro Left-Section  */
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-section .left-section {
+  margin: 40px 0px 0px 30px;
+}
+
+.left-section h3 img {
+  width: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.left-section h3 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.left-section h1 {
+  font-family: "Fredoka One";
+  font-size: 65px;
+  font-weight: bolder;
+}
+
+.left-section .text {
+  width: 90%;
+  font-size: 16px;
+  margin-top: 150px;
+}
+
+.discount-img {
+  width: 150px;
+  position: absolute;
+  top: 320px;
+  right: 450px;
+}
+.discount-content {
+  position: absolute;
+  top: 365px;
+  right: 480px;
+  z-index: 1;
+  color: #fff;
+}
+
+.discount-content h4 {
+  margin-left: 70px;
+}
+
+.discount-content h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 50px;
+  margin-top: -10px;
+  font-family: "Fredoka One";
+}
+
+.dot.yellow-dot {
+  background-color: yellow;
+  width: 1px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headphone-div .headphone-img {
+  width: 500px;
+  margin-right: 50px;
+  z-index: -1;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ff5e35;
+  border: 2px solid #ff5e35;
+  border-radius: 1.9rem;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #ff5e35;
+}
+
+.action-btns {
+  margin-top: 40px;
+}
+
+.action-btns + button {
+  margin-left: 90px;
+}
+
+.right-section .action-btn {
+  margin-left: 150px;
+}

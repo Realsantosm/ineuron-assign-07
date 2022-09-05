@@ -209,3 +209,13 @@ nav img:last-child {
   bottom: -20px;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 768px;
+  }
+  .intro-section {
+    font-size:xx-small ;
+  }
+}
